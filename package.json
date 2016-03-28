@@ -1,0 +1,35 @@
+{
+  "name": "turbomorph",
+  "version": "0.1.0",
+  "description": "Monkey patches turbolinks to morph your dom between two different pages rather than just subbing out the body.",
+  "main": "lib/assets/javascripts/turbolinks.js",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "directories": {},
+  "scripts": {
+    "build": "bin/blade build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msaspence/turbomorph.git"
+  },
+  "keywords": [
+    "turbolinks",
+    "browser",
+    "pushstate",
+    "dommorph",
+    "morphdom",
+    "react"
+  ],
+  "author": "msaspence",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/msaspence/turbomorph/issues"
+  },
+  "homepage": "https://github.com/msaspence/turbomorph#readme",
+  "dependencies": {
+    "morphdom": "^1.1.4"
+  }
+}
